@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+	<title>Ordskapa</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+	<link rel="icon" type="image/gif" href="{{ url_for('static', filename='finland.gif') }}">
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script type="text/javascript">{% block javascript %}{% endblock %}</script>
+</head>
+<body>
+	<div id="slogan">
+	</div>
+	<div id="ctrlmenu">
+	</div>
+	<div id="page">
+		{% block status %}{% endblock %}
+		{% block body %}{% endblock %}
+	</div>
+</body>

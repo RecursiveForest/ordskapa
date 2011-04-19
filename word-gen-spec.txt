@@ -1,0 +1,6 @@
+* Distribution (quantity/commonness) of sounds (e = 10% or some shit)
+* Multiple patterns (toggleable)
+* Subsyllables
+* Max/min number of syllables for words.
+* utf8
+* duplication filter

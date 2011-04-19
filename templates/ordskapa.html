@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block javascript %}
+		function append(c) {
+			document.getElementById('beta').value = document.getElementById('beta').value + c;
+		}
+{% endblock %}
+{% block body %}
+<h2>Edit</h2>
+<form method="post" action="{{ url_for('ordskapa') }}">
+	<table>
+		<tr><td>
+			<select name="letters">
+				<option value="C">C</option>
+				<option value="V">V</option>
+			</select></td>
+			<td><input name="letter_contents" type="text" value="a å" size="64"></td>
+		</tr>
+		<tr><td>
+			<select name="syllables">
+				<option value="x">x</option>
+			</select></td>
+			<td><input name="syllable_contents" type="text" value="CVC" size="64">
+		</td></tr>
+		<tr><td>
+			<input type="checkbox" name="list" checked="checked" id=""></td>
+			<td><input name="patterns" type="text" value="CV(CV)" size="64">
+		</td></tr>
+		<tr><td><input type="submit" value="Lähetä"></td></tr>
+	</table>
+</form>
+{% endblock %}

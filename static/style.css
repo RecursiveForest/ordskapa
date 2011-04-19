@@ -1,0 +1,35 @@
+body { background-color: #333; color: #ddd; font-family: sans-serif; height: 100%; margin: 0px; width: 100%; }
+img { border: 0px; /* top right bottom left */ }
+a { color: #86b886; }
+div#slogan { background-color: #222; border: 0px; padding: 5px 0 5px 1%; }
+#slogan ul { list-style: none; margin: 0; padding: 0px; }
+#slogan li { display: inline; }
+#slogan a { color: #ddd; padding: 5px; text-decoration: none; }
+#slogan a:hover { background-color: #333; padding: 5px; text-decoration: none; }
+div#error { background-color: #444; border: 1px solid #555; color: #f00; padding: .2em .5em .2em .5em; margin-top: 1em; }
+/*div#error:before { content: "Error: "; color: white; font-weight: bold; }*/
+div#error + H1 { margin-top: .25em }
+div#ctrlmenu { background-color: #222; border: 0px; position: absolute; top: 0; right: 0; padding: 5px 1% 5px 0px; text-align: right; }
+#ctrlmenu ul { list-style: none; margin: 0; padding: 0px; }
+#ctrlmenu li { display: inline; }
+#ctrlmenu a { color: #ddd; padding: 5px; text-decoration: none; }
+#ctrlmenu a:hover { background-color: #333; padding: 5px; text-decoration: none; }
+div#menu { border: 0px; float: left; font-size: 95%; min-height: 100%; padding: 0%; width: 25%; }
+#menu ul { padding: 5px 5px 5px 1.5em; }
+#menu li { list-style: none; padding: 6px; }
+#menu a { color: #ddd; padding: 4px; text-decoration: none; }
+#menu a:hover { background-color: #555; padding: 4px; text-decoration: none; }
+#menu a.current { color: #fff; padding: 4px; text-decoration: none; }
+div#page { background-color: #333; border: 0px; float: left; min-height: 100%; padding: 2%; width: 71%; font-size: 10pt; text-align: justify }
+div#preview { background-color: #444; border: 1px solid #555; color: #eee; padding: 2%; width: 71%; margin-bottom: .7em; }
+div#page :first-child, div#content :first-child, div#preview :first-child { margin-top: 0px; }
+div#editor{ background-color: #333; border: 0px; color: #ddd; padding: 2%; width: 96%; }
+div#bot, div#bar { background-color: #222; border: 0px; clear: both; padding: 5px 1% 5px 0px; text-align: right; width: 99%; }
+textarea { background-color: #444; border: 1px solid #555; color: #eee; width: 100%; }
+input { background-color: #444; border: 1px solid #555; color: #eee; }
+pre { background: #444; border: 1px solid black; margin: .5em; padding: 1em; font-family: monospace; overflow: auto; overflow-y: hidden; }
+/* pre { padding-left: 2em; background-color: #ddd; } */
+hr { color: #222; border-width: 0px 0px 0.1em 0px; border-color: black; }
+ol { list-style-type: decimal-leading-zero; }
+#page a.single { color: #ddd; text-decoration: none; }
+div#out { color: #f00; }
